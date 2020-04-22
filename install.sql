@@ -1,0 +1,1 @@
+ALTER TABLE `oxorder` ADD COLUMN `BWdeldate` DATE NOT NULL ; 
