@@ -51,7 +51,7 @@ class deliverydate_payment extends deliverydate_payment_parent
 	
 	/** 
 	*  Checks if tomorrow is a working day. 
-	*  TODO: How to handle banking Holidays / Feiertage
+	*  TChecks if tomorrow is a banking Holidays / Feiertage
 	*
 	*  @returns boolean
 	*/
