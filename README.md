@@ -19,6 +19,8 @@ Anforderungen und Beschreibung:
 1.    Hinterlegen eines Wunsch-Lieferdatums bei der Bestellung. 
 2.    Das Wunschlieferdatum ist entweder heute, wenn die Bestellung vor DEADLINE (z.B. 12 Uhr mittags) erfolgt, oder morgen, wenn heute nicht Freitag ist. (Auslieferung nur Mo-Fr.)
 3.    Die Deadline soll über die Oxid-AdminGui einstellbar sein. 
+4.    Die Anzahl der Vorschlags Datums soll eingebbar sein (z.B: 11)
+5.    Das Land für die Feiertage soll eingebbar sein ö=Österreich, d=Deutschland (ö=Deafult)
 
 Dies ist z.B. sinnvoll bei Lebensmittel-Händlern, welche die Ware immer vorrätig habe und zu einem bestimmten Termin ausliefern sollen. 
 
