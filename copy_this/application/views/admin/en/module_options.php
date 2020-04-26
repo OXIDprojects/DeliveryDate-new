@@ -29,5 +29,5 @@ $aLang = array(
 'SHOP_MODULE_DeadLine' => 'Latest Order-Date for todays Delivery (in full hours)',
 'SHOP_MODULE_Werktag' => 'Saturdy Working Day J/N - N is Default',
 'SHOP_MODULE_Tage' => 'Count of Days for Select (Bankholidays and not workingdays not displayed) - 11 is Default',
-);
+'SHOP_MODULE_Land' => 'Land for Bank Hollidays ö=Austria, d=Germany (ö ist Default)',
 );
