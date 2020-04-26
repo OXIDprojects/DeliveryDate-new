@@ -24,7 +24,7 @@ Anforderungen und Beschreibung:
 
 Dies ist z.B. sinnvoll bei Lebensmittel-Händlern, welche die Ware immer vorrätig habe und zu einem bestimmten Termin ausliefern sollen. 
 
-Umsetzung: 
+Umsetzung:
 ============
 * Der Kunde gibt beim Schritt 3 des Bestellprozesses das gewuenschte Lieferdatum an. Restriktionen,  wie in Anforderung 2 gefordert, sind umgesetzt.  
 * Bei Schritt 4 wird dem Kunden das Lieferdatum in der Übersicht noch einmal angezeigt. 
