@@ -5,15 +5,15 @@
  * The Delivery Date will be shown in the Order - Confirmation Email and on the Thank-You Page 
  *
  * The Delivery Date, which can be selected, is bound to some rules. 
- * 1.) Today if not later than "DEADLINE"
- * 2.) TOMORROW if today is not friday. 
  *
- * DEADLINE is a setting within the Modul. 
+ * DEADLINE is a setting within the Modul.
+ * Saturday as working day is selectable.
+ * Count of dates for selection.
+ * Land for Bankhollidays is selctable. 
  *
  * TODO: 
  * 1.) There needs to be a ADMIN Page, which displayes the Delivery Date within the Order
  * 2.) The Order History needs to be modified. 
- * 3.) If no Delivery Date is possible, it is still possible to finish the order. there needs to be a ERROR Message. 
  * 
  * NOTICE OF LICENSE
  *
@@ -29,15 +29,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see http://www.gnu.org/licenses/
  *
- * @copyright   Copyright (c) 2013 Peter Wiedeking
- * @author      Peter Wiedeking
+ * @copyright   Copyright (c) 2013 Peter Wiedeking, 2020 Walter Göth
+ * @author      Walter Göth based on modul from Peter Wiedeking
  * @license     http://opensource.org/licenses/GPL-3.0  GNU General Public License, version 3 (GPL-3.0)
  */
 
 /**
  * Metadata version
  */
-$sMetadataVersion = '1.1';
+$sMetadataVersion = '1.2';
 
 $aModule = array(
     'id'          => 'deliverydate',
@@ -73,5 +73,6 @@ $aModule = array(
         array('group' => 'main', 'name' => 'DeadLine', 'type' => 'str', 'value' => '12'),
 	array('group' => 'main', 'name' => 'Werktag', 'type' => 'str', 'value' => 'N'),
 	array('group' => 'main', 'name' => 'Tage', 'type' => 'str', 'value' => '11'),
+	array('group' => 'main', 'name' => 'Land', 'type' => 'str', 'value' => 'ö'),
     )
 );
