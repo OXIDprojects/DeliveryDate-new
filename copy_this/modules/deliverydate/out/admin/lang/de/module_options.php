@@ -29,4 +29,5 @@ $aLang = array(
 'SHOP_MODULE_DeadLine' => 'Späteste Bestelluhrzeit für heutige Auslieferung (in vollen Stunden) - 12 Uhr ist Default - 0 ist keine Deadline',
 'SHOP_MODULE_Werktag' => 'Samstag Werktag J/N - N ist Default',
 'SHOP_MODULE_Tage' => 'Anzahl der Tage zur Auswahl (Feiertage und Werktage werden nicht angezeigt) - 11 ist Default',
+'SHOP_MODULE_Land' => 'Land für Feiertage ö=Österreich, d=Deutschland (ö ist Default)',
 );
